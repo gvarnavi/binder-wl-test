@@ -57,6 +57,7 @@ RUN mkdir -p ${WOLFRAM_PATH} && cd ${WOLFRAM_PATH} && \
     jupyter kernelspec list
 
 # ---- WRAP UP ----
+EXPOSE 8888
 COPY . ${REPO_DIR}
 RUN chown -R ${NB_USER}:${NB_USER} ${REPO_DIR}
 USER ${NB_USER}
