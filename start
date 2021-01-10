@@ -1,0 +1,4 @@
+#!/bin/bash -l
+
+export WOLFRAMSCRIPT_ENTITLEMENTID=O-WSDS-9826-R46Z92PDKGS2Z
+exec "$@"
