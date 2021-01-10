@@ -20,7 +20,7 @@ RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook
 
 # set up user
-ARG NB_USER="george"
+ARG NB_USER="joyvan"
 ARG NB_UID="1000"
 ENV USER ${NB_USER}
 ENV HOME /home/${NB_USER}
