@@ -3,10 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - numpy
-  - scipy
+    #  - scipy
   - matplotlib
-  - numba
-  - ffmpeg
+    #  - numba
+    #  - ffmpeg
   - pip
   - pip:
     - ipyturtle

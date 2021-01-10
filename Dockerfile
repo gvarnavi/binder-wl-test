@@ -104,6 +104,8 @@ RUN cd ${WOLFRAM_DIR} && \
     ./configure-jupyter.wls add && \
     jupyter kernelspec list
 
+EXPOSE 16286
+
 # ---- WRAP UP ----
 COPY --chown=1000:1000 . ${REPO_DIR}
 USER ${NB_USER}
